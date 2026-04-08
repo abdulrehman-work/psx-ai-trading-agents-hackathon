@@ -1,16 +1,38 @@
-# React + Vite
+# PakAI Capital Manager (Frontend) 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the official simulated intelligence dashboard built for the **AI Trading Agents Hackathon**. The dashboard visually monitors and interacts with the multi-agent blockchain ecosystem.
 
-Currently, two official plugins are available:
+## Features
+* **Multi-Agent Simulation Stream:** Mock data streams from Analyst, News, Risk, and Portfolio orchestration agents.
+* **Capital Risk Configurator:** View protocol constraints, beta coefficients, and allowed leverages.
+* **On-Chain Logs Integrator:** Evaluates ERC-8004 validation registries.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🛠️ How to run locally
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 1. Prerequisites
+Ensure you have [Node.js](https://nodejs.org/) installed on your machine.
 
-## Expanding the ESLint configuration
+### 2. Install Dependencies
+Open a terminal in this `Frontend` folder and run:
+```bash
+npm install
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 3. Start the Development Server
+Once packages finish installing, start the Vite build server:
+```bash
+npm run dev
+```
+
+### 4. Viewing
+By default, Vite binds to the local host. Open your web browser and click on the link provided in the terminal, usually:
+* `http://localhost:5173/` or
+* `http://127.0.0.1:5173/`
+
+### 🎨 Tech Stack
+* **Framework:** React + Vite
+* **Styling:** Custom deep-glassmorphic Vanilla CSS mapping
+* **Charting:** Recharts
+* **Iconography:** Lucide React
